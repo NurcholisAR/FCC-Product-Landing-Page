@@ -1,0 +1,137 @@
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+<title>FCC Product Landing Page</title>
+<body>
+    <header id="header">
+        <a href="#" class="logo"> Green Tea <img src="https://cdn.pixabay.com/photo/2014/04/03/10/28/leaf-310555_1280.png" alt="logo" id="header-img" /> </a>
+        <div class="menu-toggle"></div>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#benefits">Benefits</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#price">Price</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    <section id="home" class="sec-home">
+        <div class="content">
+            <div>
+                <h2>Green Tea Overview</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem non esse quibusdam, necessitatibus dignissimos pariatur.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="img-tea">
+            <img src="https://shahdryfruits.com/wp-content/uploads/2018/04/1580148-green-tea-png-805_655_preview.png" alt="green tea" />
+        </div>
+    </section>
+
+    <section id="benefits" class="sec-benefits">
+        <hr />
+        <h2>Benefits</h2>
+        <div class="content">
+            <div class="benefits-card">
+                <p>
+                    <img class="icons" src="https://www.seekpng.com/png/full/416-4162315_health-comments-heart-rate-icon-transparent.png" alt="healt icon" width="50" />
+                </p>
+                <strong>Health</strong>
+                <p>Contains healthy bioactive compounds</p>
+            </div>
+
+            <div class="benefits-card">
+                <p>
+                    <img class="icons" src="https://www.seekpng.com/png/full/416-4162315_health-comments-heart-rate-icon-transparent.png" alt="healt icon" width="50" />
+                </p>
+                <strong>Health</strong>
+                <p>Contains healthy bioactive compounds</p>
+            </div>
+
+            <div class="benefits-card">
+                <p>
+                    <img class="icons" src="https://www.seekpng.com/png/full/416-4162315_health-comments-heart-rate-icon-transparent.png" alt="healt icon" width="50" />
+                </p>
+                <strong>Health</strong>
+                <p>Contains healthy bioactive compounds</p>
+            </div>
+            <div class="benefits-card">
+                <p>
+                    <img class="icons" src="https://www.seekpng.com/png/full/416-4162315_health-comments-heart-rate-icon-transparent.png" alt="healt icon" width="50" />
+                </p>
+                <strong>Health</strong>
+                <p>Contains healthy bioactive compounds</p>
+            </div>
+        </div>
+        <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/otxM65Fy_Ec" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+    </section>
+
+    <section id="price" class="sec-price">
+        <hr />
+        <h2>Our Pricing</h2>
+        <div class="content">
+            <div class="card">
+                <div class="level">500 <sub>gr</sub></div>
+                <div class="product-img">
+                    <img src="https://www.pngarea.com/pngm/4/69633_arizona-tea-png-tropic-green-tea-hd-png.png" alt="product image" />
+                </div>
+                <p class="price-tag">$23</p>
+                <button type="button" class="button">Get It Now</button>
+            </div>
+
+            <div class="card">
+                <div class="level">500 <sub>gr</sub></div>
+                <div class="product-img">
+                    <img src="https://www.pngarea.com/pngm/4/69633_arizona-tea-png-tropic-green-tea-hd-png.png" alt="product image" />
+                </div>
+                <p class="price-tag">$23</p>
+                <button type="button" class="button">Get It Now</button>
+            </div>
+
+            <div class="card">
+                <div class="level">500 <sub>gr</sub></div>
+                <div class="product-img">
+                    <img src="https://www.pngarea.com/pngm/4/69633_arizona-tea-png-tropic-green-tea-hd-png.png" alt="product image" />
+                </div>
+                <p class="price-tag">$23</p>
+                <button type="button" class="button">Get It Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="form">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label id="email-label" for="email">Get Notified For Discounts And New Menu Items !</label>
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </div>
+    </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+            $(".menu-toggle").toggleClass("active");
+            $("nav").toggleClass("active");
+        });
+    });
+</script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+  
+  Hello Camper!
+  
+  For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+  
+  - The freeCodeCamp Team 
+  
+  -->
