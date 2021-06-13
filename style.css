@@ -15,7 +15,7 @@
 header {
     position: sticky;
     top: 0;
-    max-width: auto;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
     background: white;
